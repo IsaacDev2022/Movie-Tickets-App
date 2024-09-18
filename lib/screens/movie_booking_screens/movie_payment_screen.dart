@@ -2,11 +2,11 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_app/screens/movie_booking_screens/payment_success_screen.dart';
-import 'package:movie_app/widgets/button_custom.dart';
-import 'package:movie_app/widgets/textfield_custom.dart';
+import 'package:movie_tickets_app/screens/movie_booking_screens/payment_success_screen.dart';
 
 import '../../widgets/button_back_custom.dart';
+import '../../widgets/button_custom.dart';
+import '../../widgets/textfield_custom.dart';
 
 class MoviePaymentScreen extends StatefulWidget {
   final String movieName;

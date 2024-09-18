@@ -3,12 +3,11 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_app/screens/movie_screens/movie_search_screen.dart';
-import 'package:movie_app/screens/profile_screens/user_profile_screen.dart';
 import 'package:provider/provider.dart';
 
 import '../../../providers/movie_provider.dart';
 import '../../../widgets/movie_item.dart';
+import '../profile_screens/user_profile_screen.dart';
 
 class MovieListScreen extends StatefulWidget {
   final User user;

@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_app/screens/movie_booking_screens/movie_theaters_screen.dart';
 import 'package:provider/provider.dart';
 
 import '../../../providers/movie_provider.dart';
 import '../../widgets/button_back_custom.dart';
 import '../../widgets/button_custom.dart';
+import '../movie_booking_screens/movie_theaters_screen.dart';
 
 class MovieDetailScreen extends StatelessWidget {
   final int id;

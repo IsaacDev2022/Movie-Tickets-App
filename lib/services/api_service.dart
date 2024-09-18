@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:movie_app/models/movie_details.dart';
 import '../models/movie.dart';
+import '../models/movie_details.dart';
 
 class ApiService {
   final String _apiKey = 'b9f82c4c61f5f44c6b230fb8a85fd600';

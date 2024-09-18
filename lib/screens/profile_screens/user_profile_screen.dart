@@ -2,9 +2,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_app/widgets/button_custom.dart';
 
 import '../../widgets/button_back_custom.dart';
+import '../../widgets/button_custom.dart';
 
 class UserProfileScreen extends StatelessWidget {
   late final User user;

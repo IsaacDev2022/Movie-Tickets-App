@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_app/screens/movie_screens/movie_list_screen.dart';
 
 class MovieSearchScreen extends StatelessWidget {
   @override

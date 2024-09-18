@@ -1,7 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_app/widgets/movie_reserved_item.dart';
+
+import '../../widgets/movie_reserved_item.dart';
 
 class MovieReservedScreen extends StatelessWidget {
   final CollectionReference moviesReserved = FirebaseFirestore.instance.collection("movieBooking");

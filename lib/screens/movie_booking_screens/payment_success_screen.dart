@@ -1,13 +1,12 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_app/providers/movie_provider.dart';
-import 'package:movie_app/screens/movie_screens/home_screen.dart';
-import 'package:movie_app/screens/movie_screens/movie_list_screen.dart';
-import 'package:movie_app/widgets/button_custom.dart';
 import 'package:provider/provider.dart';
 
+import '../../providers/movie_provider.dart';
 import '../../utils/convert_hours.dart';
+import '../../widgets/button_custom.dart';
+import '../movie_screens/home_screen.dart';
 
 class PaymentSuccessScreen extends StatelessWidget {
   final String movieName;

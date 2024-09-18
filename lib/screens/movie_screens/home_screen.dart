@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_app/screens/movie_screens/movie_list_screen.dart';
-import 'package:movie_app/screens/movie_screens/movie_reserved_screen.dart';
 
+import 'movie_list_screen.dart';
+import 'movie_reserved_screen.dart';
 import 'movie_search_screen.dart';
 
 class HomeScreen extends StatefulWidget {

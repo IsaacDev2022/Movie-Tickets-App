@@ -1,8 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_app/widgets/button_back_custom.dart';
-import 'package:movie_app/widgets/movie_theater_item.dart';
+
+import '../../widgets/button_back_custom.dart';
+import '../../widgets/movie_theater_item.dart';
 
 class MovieTheatersScreen extends StatelessWidget {
   final int id;

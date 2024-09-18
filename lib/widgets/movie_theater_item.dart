@@ -1,7 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_app/screens/movie_booking_screens/movie_theater_seats_screen.dart';
+
+import '../screens/movie_booking_screens/movie_theater_seats_screen.dart';
 
 class MovieTheaterItem extends StatelessWidget {
   final List<String> sessionItems = List<String>.generate(6, (index) => "Item $index");

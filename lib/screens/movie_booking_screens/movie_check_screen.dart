@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:movie_app/screens/movie_booking_screens/movie_payment_screen.dart';
-import 'package:movie_app/utils/convert_hours.dart';
-import 'package:movie_app/widgets/button_custom.dart';
 import 'package:provider/provider.dart';
 
 import '../../providers/movie_provider.dart';
+import '../../utils/convert_hours.dart';
 import '../../widgets/button_back_custom.dart';
+import '../../widgets/button_custom.dart';
+import 'movie_payment_screen.dart';
 
 class MovieCheckScreen extends StatelessWidget {
   final List<String> selectedSeats;
